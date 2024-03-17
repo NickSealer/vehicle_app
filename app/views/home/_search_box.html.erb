@@ -1,0 +1,17 @@
+<div class=container>
+  <div class="search-title">
+    Vehicles Searcher
+  </div>
+  <div class="search-box">
+    <%= form_tag(results_path, method: :get) do |f| %>
+      <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-12">
+          <%= text_field_tag(:q, params[:q], { class: "form-control mr-sm-2"}) %>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+          <button class="btn btn-outline-info my-sm-0 mr-sm-2" type="submit">Search</button>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

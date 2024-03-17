@@ -1,0 +1,11 @@
+.result {
+  width: 40%;
+  margin: auto;
+  padding: 20px 10px;
+  border-bottom: aqua solid 1px;
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+}

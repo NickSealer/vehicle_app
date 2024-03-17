@@ -1,0 +1,9 @@
+<%= render 'home/search_box' %>
+
+<% unless @results.any? %>
+  <%= render 'empty_state' %>
+<% else %>
+  <% @results.each do |result| %>
+    <%= render 'result', result: result %>
+  <% end %>
+<% end %>

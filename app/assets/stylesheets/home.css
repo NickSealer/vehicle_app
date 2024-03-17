@@ -1,0 +1,13 @@
+.search-title {
+  padding: 20px;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
