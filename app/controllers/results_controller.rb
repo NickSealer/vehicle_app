@@ -7,7 +7,7 @@ class ResultsController < ApplicationController
     @results = if params[:q].present?
                  Car.where('brand ILIKE ?', "%#{params[:q]}%")
                else
-                 Car.all
+                 []
                end
   end
 
