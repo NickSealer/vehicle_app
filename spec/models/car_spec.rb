@@ -1,17 +1,17 @@
 # frozen_string_literal: true
 
 # == Schema Information
-# Schema version: 20240317152850
+# Schema version: 20240318154653
 #
 # Table name: cars
 #
 #  id           :uuid             not null, primary key
 #  brand        :string
-#  category     :integer          default(0)
+#  category     :integer          default("Convertible")
 #  color        :string
 #  model        :string
 #  slug         :string
-#  transmission :integer          default(0)
+#  transmission :integer          default("AT")
 #  year         :integer          default(0)
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null

@@ -7,8 +7,8 @@
       <img src="https://www.nissanlatam.com/Catalogos/versa2020/peru/images/color/6.jpg" alt="example-image" style="width: 100%;">
     </div>
   </div>
-  <%= turbo_frame_tag dom_id(result) do %>
-    <%= link_to 'More...', result_path(result, q: params[:q]) %>
+  <%= turbo_frame_tag result.uuid do %>
+    <%= link_to 'More...', result_path(result.searchable_id, q: params[:q]) %>
   <% end %>
 </div>
 

@@ -5,7 +5,7 @@ class ResultsController < ApplicationController
 
   def results
     @results = if params[:q].present?
-                 Car.where('brand ILIKE ?', "%#{params[:q]}%")
+                 PgSearch.multisearch(params[:q])
                else
                  []
                end

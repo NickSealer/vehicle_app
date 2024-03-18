@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -12,25 +10,37 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 20_240_317_152_850) do
+ActiveRecord::Schema[7.1].define(version: 2024_03_18_154653) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension 'pgcrypto'
-  enable_extension 'plpgsql'
+  enable_extension "pgcrypto"
+  enable_extension "plpgsql"
 
-  create_table 'cars', id: :uuid, default: -> { 'gen_random_uuid()' }, force: :cascade do |t|
-    t.string 'slug'
-    t.string 'brand'
-    t.string 'model'
-    t.integer 'year', default: 0
-    t.string 'color'
-    t.integer 'transmission', default: 0
-    t.integer 'category', default: 0
-    t.datetime 'created_at', null: false
-    t.datetime 'updated_at', null: false
-    t.index ['brand'], name: 'index_cars_on_brand'
-    t.index ['color'], name: 'index_cars_on_color'
-    t.index ['model'], name: 'index_cars_on_model'
-    t.index ['slug'], name: 'index_cars_on_slug', unique: true
-    t.index ['year'], name: 'index_cars_on_year'
+  create_table "cars", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "slug"
+    t.string "brand"
+    t.string "model"
+    t.integer "year", default: 0
+    t.string "color"
+    t.integer "transmission", default: 0
+    t.integer "category", default: 0
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["brand"], name: "index_cars_on_brand"
+    t.index ["color"], name: "index_cars_on_color"
+    t.index ["model"], name: "index_cars_on_model"
+    t.index ["slug"], name: "index_cars_on_slug", unique: true
+    t.index ["year"], name: "index_cars_on_year"
   end
+
+  create_table "pg_search_documents", force: :cascade do |t|
+    t.text "content"
+    t.string "searchable_type"
+    t.uuid "searchable_id"
+    t.string "uuid"
+    t.string "slug"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["searchable_type", "searchable_id"], name: "index_pg_search_documents_on_searchable"
+  end
+
 end

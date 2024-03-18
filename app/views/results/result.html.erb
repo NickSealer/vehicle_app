@@ -1,4 +1,4 @@
-<%= turbo_frame_tag dom_id(@result) do %>
+<%= turbo_frame_tag @result.id do %>
   <div class="row">
     <div class="col-4">
       <p><%= link_to 'Hide', results_path(q: @q) %></p>
