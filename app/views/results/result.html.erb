@@ -1,16 +1,16 @@
 <%= turbo_frame_tag @result.id do %>
-  <div class="row">
-    <div class="col-4">
-      <p><%= link_to 'Hide', results_path(q: @q) %></p>
-      <p>Brand: <%= @result.brand %></p>
-      <p>Model: <%= @result.model %></p>
-      <p>Year: <%= @result.year %></p>
-      <p>Color: <%= @result.color %></p>
-      <p>Transmission: <%= @result.transmission %></p>
-      <p>Type: <%= @result.category %></p>
+  <div class="row border-top">
+    <div class="small">
+      <p class="hide"><%= link_to 'Hide', results_path(q: @q) %></p>
+      <p><b>Brand:</b> <%= @result.brand %></p>
+      <p><b>Model:</b> <%= @result.model %></p>
+      <p><b>Year:</b> <%= @result.year %></p>
+      <p><b>Color:</b> <%= @result.color %></p>
+      <p><b>Transmission:</b> <%= @result.transmission %></p>
+      <p><b>Type:</b> <%= @result.category %></p>
     </div>
-    <div class="col-8">
-      <img src="https://www.nissanlatam.com/Catalogos/versa2020/peru/images/color/6.jpg" alt="example-image" style="width: 700px;">
+    <div class="big">
+      <img src=<%= result_image(@result.class.name) %> alt="example-image" style="width: 100%;">
     </div>
   </div>
 <% end %>

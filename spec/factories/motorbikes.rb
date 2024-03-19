@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 # == Schema Information
-# Schema version: 20240318154653
+# Schema version: 20240318225454
 #
-# Table name: cars
+# Table name: motorbikes
 #
 #  id           :uuid             not null, primary key
 #  brand        :string
-#  category     :integer          default("Convertible")
+#  category     :integer          default("Anveture")
 #  color        :string
 #  model        :string
 #  slug         :string
@@ -18,10 +18,9 @@
 #
 # Indexes
 #
-#  index_cars_on_slug  (slug) UNIQUE
+#  index_motorbikes_on_slug  (slug) UNIQUE
 #
-require 'rails_helper'
-
-RSpec.describe Car do
-  pending "add some examples to (or delete) #{__FILE__}"
+FactoryBot.define do
+  factory :motorbike do
+  end
 end

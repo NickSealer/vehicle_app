@@ -4,9 +4,12 @@
   <%= render 'empty_state' %>
 <% else %>
   <div class='result'>
-    <%= @results.size %> Records found.
+    <%= @results.total_entries %> Records found.
   </div>
   <% @results.each do |result| %>
     <%= render 'result', result: result %>
   <% end %>
+  <div class="apple_pagination">
+    <%= will_paginate @results %>
+  </div>
 <% end %>

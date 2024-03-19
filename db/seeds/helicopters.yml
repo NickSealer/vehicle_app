@@ -1,0 +1,673 @@
+- brand: Airbus Helicopters
+  model: H135
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: 505 Jet Ranger X
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Leonardo
+  model: AW109
+  year: 2018
+  color: White
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: S-92
+  year: 2017
+  color: Black
+  transmission: 0
+  category: 3
+- brand: Robinson
+  model: R44
+  year: 2019
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 500
+  year: 2020
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-226
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 2
+- brand: Eurocopter
+  model: EC120 Colibri
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: AH-6 Little Bird
+  year: 2020
+  color: Black
+  transmission: 0
+  category: 3
+- brand: AgustaWestland
+  model: AW139
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: CH-53K King Stallion
+  year: 2018
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: AH-1 Cobra
+  year: 2017
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Eurocopter
+  model: AS350 Écureuil
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Mil Moscow Helicopter Plant
+  model: Mi-8
+  year: 2020
+  color: White
+  transmission: 0
+  category: 4
+- brand: MD Helicopters
+  model: MD 902 Explorer
+  year: 2018
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: UH-60 Black Hawk
+  year: 2017
+  color: Black
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: UH-1 Iroquois
+  year: 2019
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H145
+  year: 2020
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Robinson
+  model: R66
+  year: 2018
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Leonardo
+  model: AW119
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-52
+  year: 2019
+  color: Black
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: CH-47 Chinook
+  year: 2020
+  color: Green
+  transmission: 0
+  category: 4
+- brand: AgustaWestland
+  model: AW101
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: SH-60 Seahawk
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: OH-58 Kiowa
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Eurocopter
+  model: AS365 Dauphin
+  year: 2020
+  color: White
+  transmission: 0
+  category: 3
+- brand: Mil Moscow Helicopter Plant
+  model: Mi-24
+  year: 2018
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 600
+  year: 2017
+  color: Black
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: S-76
+  year: 2019
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: 429 GlobalRanger
+  year: 2020
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H160
+  year: 2018
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Robinson
+  model: R22
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Leonardo
+  model: AW169
+  year: 2019
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-62
+  year: 2020
+  color: Black
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: V-280 Valor
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 5
+- brand: Sikorsky
+  model: X2
+  year: 2018
+  color: White
+  transmission: 0
+  category: 1
+- brand: Leonardo
+  model: AW609
+  year: 2017
+  color: Black
+  transmission: 0
+  category: 5
+- brand: Kamov
+  model: Ka-226
+  year: 2019
+  color: Yellow
+  transmission: 0
+  category: 2
+- brand: Eurocopter
+  model: EC145
+  year: 2020
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 902 Explorer
+  year: 2018
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Robinson
+  model: R66
+  year: 2017
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: CH-53K King Stallion
+  year: 2019
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: AH-1Z Viper
+  year: 2020
+  color: Yellow
+  transmission: 0
+  category: 4
+- brand: Airbus Helicopters
+  model: H145M
+  year: 2018
+  color: Black
+  transmission: 0
+  category: 4
+- brand: Boeing
+  model: V-22 Osprey
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 5
+- brand: AgustaWestland
+  model: AW109
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: S-64 Skycrane
+  year: 2020
+  color: White
+  transmission: 0
+  category: 4
+- brand: Leonardo
+  model: AW139
+  year: 2017
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-52
+  year: 2018
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: Eurocopter
+  model: EC135
+  year: 2019
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 500
+  year: 2020
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Robinson
+  model: R22
+  year: 2018
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: S-76
+  year: 2017
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: 412
+  year: 2019
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H225
+  year: 2020
+  color: Black
+  transmission: 0
+  category: 4
+- brand: Boeing
+  model: CH-47F Chinook
+  year: 2018
+  color: Blue
+  transmission: 0
+  category: 4
+- brand: Sikorsky
+  model: UH-60 Black Hawk
+  year: 2017
+  color: Red
+  transmission: 0
+  category: 4
+- brand: Leonardo
+  model: AW189
+  year: 2019
+  color: Green
+  transmission: 0
+  category: 4
+- brand: Kamov
+  model: Ka-226
+  year: 2020
+  color: Yellow
+  transmission: 0
+  category: 4
+- brand: Eurocopter
+  model: AS565 Panther
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 4
+- brand: Sikorsky
+  model: CH-53E Super Stallion
+  year: 2019
+  color: Gray
+  transmission: 0
+  category: 4
+- brand: Airbus Helicopters
+  model: H175
+  year: 2020
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: V-280 Valor
+  year: 2018
+  color: Green
+  transmission: 0
+  category: 5
+- brand: Leonardo
+  model: AW189
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-31
+  year: 2019
+  color: Black
+  transmission: 0
+  category: 4
+- brand: Eurocopter
+  model: EC225 Super Puma
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: S-70
+  year: 2018
+  color: Yellow
+  transmission: 0
+  category: 4
+- brand: Bell
+  model: 412
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 520N
+  year: 2019
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H145M
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: S-97 Raider
+  year: 2018
+  color: Green
+  transmission: 0
+  category: 1
+- brand: Bell
+  model: AH-1Z Viper
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-27
+  year: 2019
+  color: Black
+  transmission: 0
+  category: 2
+- brand: Eurocopter
+  model: AS332 Super Puma
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: HH-60 Pave Hawk
+  year: 2018
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: 429
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 600N
+  year: 2019
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H135M
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: CH-54 Tarhe
+  year: 2018
+  color: Green
+  transmission: 0
+  category: 4
+- brand: Bell
+  model: AH-64 Apache
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-226
+  year: 2019
+  color: Black
+  transmission: 0
+  category: 2
+- brand: Eurocopter
+  model: EC725 Super Cougar
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: UH-60 Black Hawk
+  year: 2018
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: UH-1Y Venom
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 902 Explorer
+  year: 2019
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H160
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: S-92
+  year: 2018
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H215
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: 525 Relentless
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 5
+- brand: Leonardo
+  model: AW109 Trekker
+  year: 2018
+  color: White
+  transmission: 0
+  category: 3
+- brand: Sikorsky
+  model: CH-148 Cyclone
+  year: 2017
+  color: Black
+  transmission: 0
+  category: 3
+- brand: Robinson
+  model: R66 Turbine
+  year: 2019
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: MD Helicopters
+  model: MD 530G
+  year: 2020
+  color: Green
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-32
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 2
+- brand: Eurocopter
+  model: EC155
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: AH-64E Apache
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 3
+- brand: AgustaWestland
+  model: AW169
+  year: 2020
+  color: White
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: AH-1Z Viper
+  year: 2017
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Eurocopter
+  model: AS365 Panther
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Mil Moscow Helicopter Plant
+  model: Mi-26
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 4
+- brand: Sikorsky
+  model: S-76D
+  year: 2017
+  color: Black
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: 412EPX
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus Helicopters
+  model: H225
+  year: 2020
+  color: White
+  transmission: 0
+  category: 3
+- brand: Robinson
+  model: R44 Raven II
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Leonardo
+  model: AW139
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Kamov
+  model: Ka-52K
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: CH-47F Chinook
+  year: 2020
+  color: White
+  transmission: 0
+  category: 4
+- brand: Sikorsky
+  model: MH-60 Jayhawk
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Bell
+  model: TH-67 Creek
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Eurocopter
+  model: EC145
+  year: 2020
+  color: White
+  transmission: 0
+  category: 3
+- brand: Mil Moscow Helicopter Plant
+  model: Mi-8
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 4
+- brand: MD Helicopters
+  model: MD 500E
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 3
+

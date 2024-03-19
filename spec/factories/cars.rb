@@ -18,11 +18,7 @@
 #
 # Indexes
 #
-#  index_cars_on_brand  (brand)
-#  index_cars_on_color  (color)
-#  index_cars_on_model  (model)
-#  index_cars_on_slug   (slug) UNIQUE
-#  index_cars_on_year   (year)
+#  index_cars_on_slug  (slug) UNIQUE
 #
 FactoryBot.define do
   factory :car do

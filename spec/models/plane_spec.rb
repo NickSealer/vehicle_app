@@ -1,27 +1,27 @@
 # frozen_string_literal: true
 
 # == Schema Information
-# Schema version: 20240318154653
+# Schema version: 20240318234619
 #
-# Table name: cars
+# Table name: planes
 #
 #  id           :uuid             not null, primary key
 #  brand        :string
-#  category     :integer          default("Convertible")
+#  category     :integer          default(0)
 #  color        :string
 #  model        :string
 #  slug         :string
-#  transmission :integer          default("AT")
+#  transmission :integer          default("NA")
 #  year         :integer          default(0)
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
 #
 # Indexes
 #
-#  index_cars_on_slug  (slug) UNIQUE
+#  index_planes_on_slug  (slug) UNIQUE
 #
 require 'rails_helper'
 
-RSpec.describe Car do
+RSpec.describe Plane do
   pending "add some examples to (or delete) #{__FILE__}"
 end

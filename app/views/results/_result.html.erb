@@ -1,14 +1,14 @@
 <div class="result">
   <div class="row">
-    <div class="col-8">
+    <div class="big">
       <%= result.slug.titleize %>
     </div>
-    <div class="col-4">
-      <img src="https://www.nissanlatam.com/Catalogos/versa2020/peru/images/color/6.jpg" alt="example-image" style="width: 100%;">
+    <div class="small">
+      <img src=<%= result_image(result.searchable_type) %> alt="example-image" style="width: 100%;">
     </div>
   </div>
   <%= turbo_frame_tag result.uuid do %>
-    <%= link_to 'More...', result_path(result.searchable_id, q: params[:q]) %>
+    <%= link_to 'More...', result_path(result.searchable_id, q: params[:q], klass: result.searchable_type) %>
   <% end %>
 </div>
 

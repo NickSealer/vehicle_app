@@ -1,0 +1,529 @@
+- brand: Boeing
+  model: 737
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A320
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: F-22 Raptor
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 5
+- brand: Cessna
+  model: 172 Skyhawk
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 747
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A380
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: F-16 Fighting Falcon
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 5
+- brand: Cessna
+  model: 152
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 777
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A350
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: F-35 Lightning II
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 5
+- brand: Cessna
+  model: 182 Skylane
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 787 Dreamliner
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A330
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: C-130 Hercules
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: 208 Caravan
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 767
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A340
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: P-3 Orion
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation X
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737 MAX
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A220
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: F-117 Nighthawk
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 5
+- brand: Cessna
+  model: Citation CJ4
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737 NG
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: Beluga
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: F-15 Eagle
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 5
+- brand: Cessna
+  model: Citation Latitude
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737 Classic
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A319
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: C-5 Galaxy
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation M2
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 777X
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A321
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: F-14 Tomcat
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 4
+- brand: Cessna
+  model: Citation Sovereign
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 747-8
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A300
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation Longitude
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 787-10 Dreamliner
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A318
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation Mustang
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 777F
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A330-900neo
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation CJ3
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 767-400ER
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A330-800neo
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: C-130J Super Hercules
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 777-9X
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A220-300
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation CJ1
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 787-9 Dreamliner
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A220-100
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation Sovereign+
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 777-200LR
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A400M Atlas
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation CJ2
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737-300
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A321neo
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: SR-71 Blackbird
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 5
+- brand: Cessna
+  model: Citation X+
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737-800
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A321LR
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: U-2 Dragon Lady
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 4
+- brand: Boeing
+  model: 737-700
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A330-200
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: C-130J-30 Super Hercules
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737-900ER
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A330-300
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: C-141 Starlifter
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737 MAX 8
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737-400
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A340-200
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: C-5M Super Galaxy
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737-500
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A340-300
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation CJ3+
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737-600
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A350-1000
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation CJ2+
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737-700ER
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A350-900
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3
+- brand: Lockheed Martin
+  model: C-130J Hercules
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 3
+  category: 3
+- brand: Boeing
+  model: 737 MAX 9
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 737 MAX 10
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Cessna
+  model: Citation CJ1+
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Boeing
+  model: 747-400
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Airbus
+  model: A319neo
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 3

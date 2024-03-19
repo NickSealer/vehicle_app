@@ -1,0 +1,246 @@
+- brand: BAE Systems
+  model: Type 45
+  year: 2017
+  color: Gray
+  transmission: 0
+  category: 3
+- brand: Damen Shipyards Group
+  model: Sigma 10514
+  year: 2018
+  color: Blue
+  transmission: 0
+  category: 4
+- brand: Huntington Ingalls Industries
+  model: San Antonio
+  year: 2016
+  color: Gray
+  transmission: 0
+  category: 1
+- brand: Austal
+  model: Independence
+  year: 2019
+  color: White
+  transmission: 0
+  category: 3
+- brand: STX Europe
+  model: Knud E. Hansen
+  year: 2017
+  color: Yellow
+  transmission: 0
+  category: 4
+- brand: DSME
+  model: Maran Gas Apollonia
+  year: 2020
+  color: Red
+  transmission: 0
+  category: 5
+- brand: Samsung Heavy Industries
+  model: SHI 305,000
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 0
+- brand: Daewoo Shipbuilding & Marine Engineering
+  model: DSME 353,000
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 5
+- brand: Hyundai Heavy Industries
+  model: HHIC 319,000
+  year: 2016
+  color: White
+  transmission: 0
+  category: 6
+- brand: Hanjin Heavy Industries
+  model: HHIC 319,000
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 6
+- brand: STX Europe
+  model: Knud E. Hansen
+  year: 2015
+  color: Blue
+  transmission: 0
+  category: 1
+- brand: Austal
+  model: Independence
+  year: 2020
+  color: Gray
+  transmission: 0
+  category: 7
+- brand: Damen Shipyards Group
+  model: Sigma 10514
+  year: 2018
+  color: Red
+  transmission: 0
+  category: 5
+- brand: BAE Systems
+  model: Type 45
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Huntington Ingalls Industries
+  model: San Antonio
+  year: 2016
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: DSME
+  model: Maran Gas Apollonia
+  year: 2020
+  color: Gray
+  transmission: 0
+  category: 2
+- brand: Samsung Heavy Industries
+  model: SHI 305,000
+  year: 2018
+  color: Red
+  transmission: 0
+  category: 4
+- brand: Daewoo Shipbuilding & Marine Engineering
+  model: DSME 353,000
+  year: 2017
+  color: White
+  transmission: 0
+  category: 3
+- brand: Hyundai Heavy Industries
+  model: HHIC 319,000
+  year: 2016
+  color: Blue
+  transmission: 0
+  category: 0
+- brand: Hanjin Heavy Industries
+  model: HHIC 319,000
+  year: 2019
+  color: Gray
+  transmission: 0
+  category: 1
+- brand: STX Europe
+  model: Knud E. Hansen
+  year: 2015
+  color: Yellow
+  transmission: 0
+  category: 2
+- brand: Austal
+  model: Independence
+  year: 2020
+  color: Blue
+  transmission: 0
+  category: 3
+- brand: Damen Shipyards Group
+  model: Sigma 10514
+  year: 2018
+  color: White
+  transmission: 0
+  category: 4
+- brand: BAE Systems
+  model: Type 45
+  year: 2017
+  color: Blue
+  transmission: 0
+  category: 5
+- brand: Huntington Ingalls Industries
+  model: San Antonio
+  year: 2016
+  color: Red
+  transmission: 0
+  category: 6
+- brand: DSME
+  model: Maran Gas Apollonia
+  year: 2020
+  color: Yellow
+  transmission: 0
+  category: 7
+- brand: General Dynamics NASSCO
+  model: Mobile Landing Platform
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 0
+- brand: Fincantieri
+  model: Trieste
+  year: 2018
+  color: Red
+  transmission: 0
+  category: 1
+- brand: Damen Shipyards Group
+  model: Sigma 10514
+  year: 2016
+  color: White
+  transmission: 0
+  category: 3
+- brand: Huntington Ingalls Industries
+  model: San Antonio
+  year: 2020
+  color: Yellow
+  transmission: 0
+  category: 4
+- brand: Austal
+  model: Independence
+  year: 2019
+  color: Blue
+  transmission: 0
+  category: 5
+- brand: STX Europe
+  model: Knud E. Hansen
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 6
+- brand: DSME
+  model: Maran Gas Apollonia
+  year: 2017
+  color: Red
+  transmission: 0
+  category: 7
+- brand: Samsung Heavy Industries
+  model: SHI 305,000
+  year: 2016
+  color: White
+  transmission: 0
+  category: 5
+- brand: Daewoo Shipbuilding & Marine Engineering
+  model: DSME 353,000
+  year: 2020
+  color: Blue
+  transmission: 0
+  category: 4
+- brand: Hyundai Heavy Industries
+  model: HHIC 319,000
+  year: 2019
+  color: Red
+  transmission: 0
+  category: 5
+- brand: Hanjin Heavy Industries
+  model: HHIC 319,000
+  year: 2018
+  color: Gray
+  transmission: 0
+  category: 5
+- brand: Austal
+  model: Independence
+  year: 2016
+  color: Blue
+  transmission: 0
+  category: 0
+- brand: Damen Shipyards Group
+  model: Sigma 10514
+  year: 2015
+  color: Red
+  transmission: 0
+  category: 1
+- brand: Huntington Ingalls Industries
+  model: San Antonio
+  year: 2018
+  color: Yellow
+  transmission: 0
+  category: 3
+- brand: BAE Systems
+  model: Type 45
+  year: 2019
+  color: Gray
+  transmission: 0
+  category: 2

@@ -5,7 +5,7 @@ class ResultsController < ApplicationController
 
   def results
     @results = if params[:q].present?
-                 PgSearch.multisearch(params[:q])
+                 PgSearch.multisearch(params[:q]).paginate(page: params[:page], per_page: 10)
                else
                  []
                end
@@ -13,6 +13,6 @@ class ResultsController < ApplicationController
 
   def result
     @q = params[:q]
-    @result ||= Car.find(params[:id])
+    @result ||= params[:klass].constantize.find(params[:id])
   end
 end
