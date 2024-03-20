@@ -2,8 +2,8 @@
 
 Rails.application.routes.draw do
   root 'home#home'
-  get 'search', to: 'results#results', as: :results
-  get 'result/:id', to: 'results#result', as: :result
+  get 'search', to: 'search#search', as: :search
+  get 'record/:id', to: 'search#show', as: :record
 
   # API
 

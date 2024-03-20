@@ -1,0 +1,14 @@
+<div class="result r-hover">
+  <div class="row">
+    <div class="big">
+      <%= record.slug.titleize %>
+    </div>
+    <div class="small">
+      <img src=<%= record_image(record.searchable_type) %> alt="example-image" style="width: 100%;">
+    </div>
+  </div>
+  <%= turbo_frame_tag record.uuid do %>
+    <%= link_to 'More...', record_path(record.searchable_id, q: params[:q], klass: record.searchable_type) %>
+  <% end %>
+</div>
+

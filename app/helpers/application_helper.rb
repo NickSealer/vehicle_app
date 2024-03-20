@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
-  def result_image(type)
+  def record_image(type)
     case type
     when Motorbike.name
       'https://cdn.room58.com/2023/06/02/b66ee9d0f9ffed49c6fe023c5cd442ca_0d10903ef1a4c494.webp'

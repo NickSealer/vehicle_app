@@ -1,0 +1,15 @@
+<%= render 'home/search_box' %>
+
+<% unless @records.any? %>
+  <%= render 'empty_state' %>
+<% else %>
+  <div class='result'>
+    <%= @records.total_entries %> Records found.
+  </div>
+  <% @records.each do |record| %>
+    <%= render 'record', record: record %>
+  <% end %>
+  <div class="apple_pagination">
+    <%= will_paginate @records %>
+  </div>
+<% end %>

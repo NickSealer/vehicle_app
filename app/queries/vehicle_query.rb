@@ -2,21 +2,21 @@
 
 module VehicleQuery
   def self.search(params)
-    results = main_results(params)
-    results = filter(results, params[:vehicle_type]) if params[:vehicle_type].present?
-    results
+    records = main_records(params)
+    records = filter(records, params[:vehicle_type]) if params[:vehicle_type].present?
+    records
   end
 
-  def self.main_results(params)
+  def self.main_records(params)
     return [] unless params[:q].present?
 
     PgSearch.multisearch(params[:q])
   end
 
-  def self.filter(results, vehicle_type)
-    return results unless vehicle_permited?(vehicle_type)
+  def self.filter(records, vehicle_type)
+    return records unless vehicle_permited?(vehicle_type)
 
-    results.where(searchable_type: vehicle_type.capitalize)
+    records.where(searchable_type: vehicle_type.capitalize)
   end
 
   def self.vehicle_permited?(vehicle_type)
