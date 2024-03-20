@@ -8,6 +8,9 @@
         <%= text_field_tag(:q, params[:q], { class: "search-input"}) %>
         <button class="btn" type="submit">Search</button>
       </div>
+      <div class="filters">
+        <%= vehicle_type_filters(params[:vehicle_type].presence || 'all') %>
+      </div>
     <% end %>
   </div>
 </div>

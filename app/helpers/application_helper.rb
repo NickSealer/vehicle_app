@@ -15,4 +15,15 @@ module ApplicationHelper
       'https://www.nissanlatam.com/Catalogos/versa2020/peru/images/color/6.jpg'
     end
   end
+
+  def vehicle_type_filters(vehicle_type)
+    filters = []
+    %w[all car helicopter motorbike plane ship].each do |vehicle|
+      filters << content_tag(:label, id: "vehicle_type_#{vehicle}") do
+        radio_button_tag('vehicle_type', vehicle, vehicle == vehicle_type) + vehicle.capitalize
+      end
+    end
+
+    safe_join(filters)
+  end
 end

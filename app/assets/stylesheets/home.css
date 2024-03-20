@@ -20,8 +20,9 @@
   }
 
   .search-input {
+    width: 100%;
     padding: 8px;
-    margin: 0px 10px;
+    margin-right: 10px;
     border-radius: 5px;
     border: 2px solid aqua;
   }
@@ -31,9 +32,18 @@
     border-radius: 5px;
     border: 2px solid aqua;
     background-color: #2aefef82;
+    cursor: pointer;
   }
 
   .btn:hover {
     background-color: transparent;
+  }
+
+  .filters {
+    padding: 20px;
+
+    label, input {
+      cursor: pointer;
+    }
   }
 }
