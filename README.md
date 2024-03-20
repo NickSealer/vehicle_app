@@ -11,7 +11,6 @@ Install like any other rails app:
 4. rails db:seed
 ```
 
-
 #### Versions:
 - Rails version: 7.1.3\
 - Ruby version: 3.3.3\
