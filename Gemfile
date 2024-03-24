@@ -40,6 +40,8 @@ gem 'redis', '>= 4.0.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
+gem 'graphiql-rails', '~> 1.9.0', group: :development
+gem 'graphql', '~> 2.1.0'
 gem 'pg_search'
 gem 'rack-cors'
 gem 'will_paginate', '~> 4.0'
