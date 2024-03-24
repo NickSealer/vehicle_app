@@ -25,19 +25,15 @@ module Api
 
       def create
         car = Car.new(car_params)
-        if car.save
-          render json: { car: }, status: :created
-        else
-          render json: { error: car.errors }, status: :unprocessable_entity
-        end
+        return render json: { error: car.errors }, status: :unprocessable_entity if car.save
+
+        render json: { car: }, status: :created
       end
 
       def update
-        if car.update!(car_params)
-          render json: { car: }, status: :ok
-        else
-          render json: { error: car.errors }, status: :unprocessable_entity
-        end
+        return render json: { error: car.errors }, status: :unprocessable_entity unless car.update!(car_params)
+
+        render json: { car: }, status: :ok
       end
 
       def destroy
