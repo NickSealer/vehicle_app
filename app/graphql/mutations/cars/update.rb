@@ -8,6 +8,7 @@ module Mutations
       argument :params, Types::Inputs::CarAttributes, required: false
 
       def resolve(id:, params:)
+        validate_access_key(context[:headers])
         car = Car.find_by(id:)
         car&.update!(Hash(params))
 

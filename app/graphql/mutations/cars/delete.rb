@@ -7,6 +7,7 @@ module Mutations
       argument :id, ID, required: true, description: 'UUID'
 
       def resolve(id:)
+        validate_access_key(context[:headers])
         car = Car.find_by(id:)
         car&.destroy!
 
