@@ -8,7 +8,7 @@
     </div>
   </div>
   <%= turbo_frame_tag record.uuid do %>
-    <%= link_to 'More...', record_path(record.searchable_id, q: params[:q], klass: record.searchable_type) %>
+    <%= link_to 'More...', record_path(record.searchable_id, q: params[:q], klass: record.searchable_type, page: params[:page], vehicle_type: params[:vehicle_type]) %>
   <% end %>
 </div>
 

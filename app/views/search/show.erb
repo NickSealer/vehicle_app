@@ -1,7 +1,7 @@
 <%= turbo_frame_tag @record.id do %>
   <div class="row border-top">
     <div class="small">
-      <p class="hide"><%= link_to 'Hide', search_path(q: @q) %></p>
+      <p class="hide"><%= link_to 'Hide', search_path(q: @q, page: @page, vehicle_type: @vehicle_type) %></p>
       <p><b>Brand:</b> <%= @record.brand %></p>
       <p><b>Model:</b> <%= @record.model %></p>
       <p><b>Year:</b> <%= @record.year %></p>

@@ -9,6 +9,8 @@ class SearchController < ApplicationController
 
   def show
     @q = params[:q]
+    @page = params[:page]
+    @vehicle_type = params[:vehicle_type]
     @record ||= params[:klass].capitalize.constantize.find(params[:id])
   end
 end
