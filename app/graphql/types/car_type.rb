@@ -9,8 +9,8 @@ module Types
     field :model, String, null: false
     field :year, Integer, null: false
     field :color, String, null: false
-    field :transmission, Integer, description: "Options: #{Car.transmissions}"
-    field :category, Integer, description: "Options: #{Car.categories}"
+    field :transmission, String, description: "Options: #{Car.transmissions}"
+    field :category, String, description: "Options: #{Car.categories}"
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
   end
