@@ -7,13 +7,16 @@ module Api
       before_action :car, only: %i[show update]
 
       def index
-        @cars ||= Car.all.paginate(page: params[:page], per_page: 10)
+        @cars ||= Car.order(created_at: :asc).paginate(page: params[:page], per_page: 20)
 
         render json: {
           cars: @cars,
           metadata: {
             current_page: @cars.current_page,
             per_page: @cars.per_page,
+            next_page: @cars.next_page,
+            previous_page: @cars.previous_page,
+            total_pages: @cars.total_pages,
             total_entries: @cars.total_entries
           }
         }, status: :ok
@@ -25,7 +28,7 @@ module Api
 
       def create
         car = Car.new(car_params)
-        return render json: { error: car.errors }, status: :unprocessable_entity if car.save
+        return render json: { error: car.errors }, status: :unprocessable_entity unless car.save
 
         render json: { car: }, status: :created
       end

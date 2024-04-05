@@ -33,7 +33,7 @@ class Car < ApplicationRecord
     'Luxury Car': 5,
     'Luxury SUV': 6,
     Sedan: 7,
-    'Sports Car': 8,
+    'Sport Car': 8,
     SUV: 9,
     Truck: 10,
     Van: 11
