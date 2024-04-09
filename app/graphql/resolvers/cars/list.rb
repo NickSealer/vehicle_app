@@ -6,7 +6,7 @@ module Resolvers
       type [Types::CarType], null: false
 
       def resolve
-        Car.all
+        Car.all.order(created_at: :desc)
       end
     end
   end

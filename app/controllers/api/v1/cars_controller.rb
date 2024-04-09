@@ -7,7 +7,7 @@ module Api
       before_action :car, only: %i[show update]
 
       def index
-        @cars ||= Car.order(created_at: :asc).paginate(page: params[:page], per_page: 20)
+        @cars ||= Car.order(created_at: :desc).paginate(page: params[:page], per_page: 20)
 
         render json: {
           cars: @cars,
